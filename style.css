@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding-left: 10px;
+  background-color: azure;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+
+#details div {
+  background-color: red;
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
